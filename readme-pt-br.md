@@ -1,16 +1,14 @@
-# Laravel 5.4 on OpenShift #
-Para a versão do readme em português vá para [Readme em português](readme-pt-br.md)
+# Laravel 5.4 em OpenShift #
 
-[Laravel](http://laravel.com/) is a free, open source PHP web application framework,
-designed for the development of model–view–controller (MVC) web applications.
+[Laravel](http://laravel.com/) é um framework PHP gratuito e livre, projetado para o desenvolvimento de aplicações web seguindo o padrão MVC (_Model-View-Controller_)
 
-This QuickStart was created to make it easy to get started with Laravel 5.4 on
-OpenShift. It is based on https://github.com/luciddreamz/laravel
-and https://github.com/lucho2d7/openshift-quickstart-laravel5.2
+Esté QuickStart foi criado para tornar fácil trabalhar com Laravel 5.4 no OpenShift.
+Ele é baseado em dois projetos:  https://github.com/luciddreamz/laravel
+e https://github.com/lucho2d7/openshift-quickstart-laravel5.2
 
-At this point it works in conjunction with the following cartridges:
+Ele já foi testado usando esses dois cartridge:
 
-https://github.com/boekkooi/openshift-cartridge-php (with php version 5.6.16, 5.6.22 and 7.07) https://github.com/boekkooi/openshift-cartridge-nginx
+https://github.com/boekkooi/openshift-cartridge-php (com o  php na versão 5.6.16, 5.6.22 e 7.07) https://github.com/boekkooi/openshift-cartridge-nginx
 
 
 ## OpenShift Considerations ##
