@@ -87,8 +87,9 @@ To stop tailing the logs, press *Ctrl + c*.
 
 1. Create a Laravel application:
 
-
+    ```
     rhc app-create <_app_name_> --env OPENSHIFT_PHP_VERSION=5.6.16 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-nginx http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-php mysql-5.5 --from-code=https://github.com/marcosdourado/Openshift-quickstart-for-laravel-5.4.git
+    
 
   > PHP VERSION: Opcionalmente você pode usr `--env OPENSHIFT_PHP_VERSION=<version>` para definir uma versão do PHP, mais detalhes podem ser encontrador na documentação dos cartridge  usados.
 
